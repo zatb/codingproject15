@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.App h1 {
+  font-size: 2.5em;
+}
+
+.App p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.App a {
+  color: #0073b1;
+  text-decoration: none;
+}
+
+.skills {
+  text-align: center;
+  margin: 20px;
+}
+
+.skill {
+  margin: 5px 0;
+}
+
+.experience {
+  text-align: center;
+  margin: 20px;
+}
+
+.experience-item {
+  margin: 10px 0;
+}
+
+.education {
+  text-align: center;
+  margin: 20px;
+}
+
+.education-item {
+  margin: 10px 0;
+}
