@@ -1,45 +1,65 @@
 .App {
-  text-align: center;
+  font-family: Arial, sans-serif;
   margin: 20px;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.App h1 {
+.App-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.App-header h1 {
   font-size: 2.5em;
+  margin-bottom: 10px;
 }
 
-.App p {
+.App-header p {
   font-size: 1.2em;
-  margin: 10px 0;
-}
-
-.App a {
-  color: #0073b1;
-  text-decoration: none;
-}
-
-.skills {
-  text-align: center;
-  margin: 20px;
-}
-
-.skill {
   margin: 5px 0;
 }
 
-.experience {
-  text-align: center;
-  margin: 20px;
+section {
+  margin-bottom: 20px;
 }
 
-.experience-item {
+section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section ul li {
+  background-color: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+section div {
+  background-color: #fff;
   margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.education {
-  text-align: center;
-  margin: 20px;
+section h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
 }
 
-.education-item {
-  margin: 10px 0;
+section p {
+  font-size: 1.2em;
+  margin: 0;
 }
