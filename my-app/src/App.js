@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Create a component to display your name, a brief biography, and contact information such as email and LinkedIn.
   <div className="App">
     <header className="App-header">
       <h1>Zach Bolanos</h1>
@@ -11,9 +12,16 @@ import React from 'react';
   </div>
 
 function App() {
+  // Develop a component that lists your skills. Each skill could be displayed using a separate component that receives props for the skill name and proficiency level.
   const skills = [
     { id: 1, name: 'JavaScript', level: 'Intermediate' },
     { id: 2, name: 'HTML', level: 'Advanced' },
     { id: 3, name: 'Excel', level: 'Expert' },
+  ];
+  
+  // Display your past work experiences, including job title, company name, and the duration of each role.
+  const experiences = [
+    { id: 1, title: 'Waiter', company: 'Bob Evans', duration: 'June 2020 - February 2024' },
+    { id: 2, title: 'Database Management Intern', company: 'VirtualOne', duration: 'March 2024 - Present' },
   ];
 }
