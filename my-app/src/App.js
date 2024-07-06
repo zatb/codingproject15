@@ -1,26 +1,10 @@
+// U36432650
+
 import React from 'react';
 import './App.css';
 
 function App() {
 
-  // Display your past work experiences, including job title, company name, and the duration of each role.
-  const skills = [
-    { id: 1, name: 'JavaScript', level: 'Intermediate' },
-    { id: 2, name: 'HTML', level: 'Advanced' },
-    { id: 3, name: 'Excel', level: 'Expert' },
-  ];
-
-  // Display your past work experiences, including job title, company name, and the duration of each role.
-  const experiences = [
-    { id: 1, title: 'Waiter', company: 'Bob Evans', duration: 'June 2020 - February 2024' },
-    { id: 2, title: 'Database Management Intern', company: 'VirtualOne', duration: 'March 2024 - Present' },
-  ];
-
-// Show your educational background including the name of the institution, degree obtained, and the years attended.
- const education = [
-    { id: 1, institution: 'Hillsbourough Community College', degree: 'Business Administration', years: '2021-2023' },
-    { id: 2, institution: 'University of South Florida', degree: 'Business Analytics and Information Systems', years: '2023-2025' },
-  ];
 
 return (
 
@@ -65,5 +49,24 @@ return (
   </div>
 );
 }
+
+  // Display your past work experiences, including job title, company name, and the duration of each role.
+  const skills = [
+    { id: 1, name: 'JavaScript', level: 'Intermediate' },
+    { id: 2, name: 'HTML', level: 'Advanced' },
+    { id: 3, name: 'Excel', level: 'Expert' },
+  ];
+
+  // Display your past work experiences, including job title, company name, and the duration of each role.
+  const experiences = [
+    { id: 1, title: 'Waiter', company: 'Bob Evans', duration: 'June 2020 - February 2024' },
+    { id: 2, title: 'Database Management Intern', company: 'VirtualOne', duration: 'March 2024 - Present' },
+  ];
+
+// Show your educational background including the name of the institution, degree obtained, and the years attended.
+ const education = [
+    { id: 1, institution: 'Hillsbourough Community College', degree: 'Business Administration', years: '2021-2023' },
+    { id: 2, institution: 'University of South Florida', degree: 'Business Analytics and Information Systems', years: '2023-2025' },
+  ];
 
 export default App;
