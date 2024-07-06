@@ -9,3 +9,11 @@ import React from 'react';
       <p>Email: myemail@example.com | LinkedIn: linkedin.com/in/mylinkedin</p>
     </header>
   </div>
+
+function App() {
+  const skills = [
+    { id: 1, name: 'JavaScript', level: 'Intermediate' },
+    { id: 2, name: 'HTML', level: 'Advanced' },
+    { id: 3, name: 'Excel', level: 'Expert' },
+  ];
+}
