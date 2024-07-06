@@ -15,6 +15,7 @@ return (
       <p>
         I'm currently a student at USF and I am pursuing a degree in Business Analytics. I am set to gradutate in the Summer of 2025.
       </p>
+      <br></br>
       <p>Email: myemail@example.com | LinkedIn: linkedin.com/in/mylinkedin</p>
     </header>
 
